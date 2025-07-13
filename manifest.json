@@ -1,0 +1,55 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "tag-Addon",
+        "description": "A simple tag addon",
+        "uuid": "778eb85a-b8aa-443b-a695-f2a15f8b8bb7",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            6
+        ]
+    },
+    "modules": [
+        {
+            "description": "tag-Addon",
+            "type": "data",
+            "uuid": "bc0ea5ee-2421-4e16-9bcf-3422c638754c",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "22f8f781-fefd-4cbf-9d57-89a9273dee9f",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "d530eeb7-3d1e-41de-ab1d-365f2120f251",
+            "version":[
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        }
+    ]
+}
